@@ -21,15 +21,15 @@ $discount_priceformat = "$".number_format($discount_price,2);
         <h1>This page is under construction</h1>
 
         <label>Product Description:</label>
-        <span><?php echo $product_description; ?></span><br>
+        <span><?php echo htmlspecialchars($product_description); ?></span><br>
 
         <label>List Price:</label>
-        <span><?php echo $list_priceformat; ?></span><br>
+        <span><?php echo htmlspecialchars($list_priceformat); ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount_percentformat; ?></span><br>
+        <span><?php echo htmlspecialchars($discount_percentformat); ?></span><br>
 
-        <label>Discount Amount:</label>
+        <label>Discount Amount:</label>:`
         <span><?php echo $discount_amountformat; ?></span><br>
 
         <label>Discount Price:</label>
