@@ -29,7 +29,7 @@ $discount_priceformat = "$".number_format($discount_price,2);
         <label>Standard Discount:</label>
         <span><?php echo htmlspecialchars($discount_percentformat); ?></span><br>
 
-        <label>Discount Amount:</label>:`
+        <label>Discount Amount:</label>
         <span><?php echo $discount_amountformat; ?></span><br>
 
         <label>Discount Price:</label>
