@@ -20,16 +20,16 @@ $discount_price = $list_price-$discount_amount;
         <span><?php echo $product_description; ?></span><br>
 
         <label>List Price:</label>
-        <span><?php echo $list_price; ?></span><br>
+        <span><?php echo "$".$list_price; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount_percent; ?></span><br>
+        <span><?php echo $discount_percent."%"; ?></span><br>
 
         <label>Discount Amount:</label>
-        <span><?php echo $discount_amount; ?></span><br>
+        <span><?php echo "$".$discount_amount; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo $discount_price; ?></span><br>
+        <span><?php echo "$".$discount_price; ?></span><br>
     </main>
 </body>
 </html>
