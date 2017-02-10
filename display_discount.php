@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+$product_description = $_POST['product description'];
+$list_price = $_POST['list price'];
+$discount_percent = $_POST['discount percent'];
+?>
 <html>
 <head>
     <title>Product Discount Calculator</title>
